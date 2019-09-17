@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="day_2.css" type="text/css"></type>
+    <title>CSS Stylesheets with Relative Paths</title>
 </head>
 <body>
-    <h1>
-        Student Bio
-    </h1>
-    <h2>
-        Angelo Capozzi
-    </h2>
-    <img src="IMG_0644.JPG" width="300">
-    <p>
-        My name is Angelo and I'm from Santa Rosa, CA. It's a small city north of San Francisco.
-        I grew up playing sports, drawing, and playing video games. I still enjoy all three, especially golf, 
-        hiking, and figure drawing. And Magic:The Gathering, And WOW. Dont judge. I also like to cook .
-    </p>
-    <br>
-    <strong>
-        Contact Info:
-        <ul>
-            <li>Email: acap613@yahoo.com</li>
-            <li>GitHub: acap613</li>
-            <li>Portfolio: coming soon</li>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+           
+    <div class="container">
+            
+         <section id="main-bio">
+            
+            <h2>Angelo Capozzi</h2>   
+            
+            <img src="IMG_0644.JPG" width="300" alt="My Name" id="bio-image">
+            <p>
+                My name is Angelo and I'm from Santa Rosa, CA.
+                <br>It's a small city north of San Francisco.
+                <br>I grew up playing sports, drawing, and playing video games. 
+                <br>I still enjoy all three, especially golf, 
+                <br>hiking, and figure drawing. And Magic:The Gathering.
+                <br> And WOW. Dont judge. I also like to cook .
+            </p>
+        </section><br>
+        <section id="contact-info">
+    
+            <h2>Contact Info</h2>
+                <ul>
+                    <li><strong>Email:</strong><a href="#">acap613@yahoo.com</a></li>
+                    <li><strong>GitHub:</strong><a href="#">acap613</a></li>
+                    <li><strong>Portfolio:</strong><a href="#">Coming Soon!</li>
 
-        </ul>
-    </strong>
+                </ul>
+        </section>
+   
+         
+    
+    </div>
 
 
 </body>
